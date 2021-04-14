@@ -1,0 +1,12 @@
+*
+{
+	font-size: 16px;
+}
+.contenedor_imagen
+{
+	text-align: center;
+}
+.contenedor_imagen img
+{
+	max-width: 10rem;
+}

@@ -1,3 +1,8 @@
+
+
+
+
+
 const botonNumeros = document.getElementsByName("data_number");
 const botonOpera = document.getElementsByName("data_opera");
 const botonDelete = document.getElementsByName("data_delete")[0];
@@ -32,25 +37,33 @@ botonDelete.addEventListener("click", function(){
 
 
 function selectOperacion(op){
+
 	 if (opeActual == "") return;
+
 	 if (opeAnterior != ""){
- 		calcular()
- }
+ 		calcular();
+ 		
+
+ 		}
+ 	
  	operacion = op.toString();
  	opeAnterior = opeActual;
  	opeActual = "";
-}
+	}
 
 function calcular(){
 	var calculo;
 	const anterior = parseFloat(opeAnterior);
 	const actual = parseFloat (opeActual);
+		
+
 	if (isNaN(anterior) || isNaN(actual)) return;
 	switch(operacion)
-	{
+	{ 
 		case "+":
 			calculo = anterior + actual;
 			break;
+			alert(anterior);
 		case "-":
 			calculo = anterior - actual;
 			break;
@@ -62,29 +75,24 @@ function calcular(){
 			break;
 		default:
 			return;
-	} 
-	opeActual = calculo;
-	operacion = undefined;
-	opeAnterior = "";	
-}
-
+				}
+		}
 function agregaNumeros(num){
 	opeActual = opeActual.toString() + num.toString();
 	actualizarDisplay();
-}
+	};
 
 function clear(){
 	opeActual = "";
 	opeAnterior = "";
 	operacion = undefined;
 
-}
+	};
 
 function actualizarDisplay(){
 	result.value = opeActual;
 
-}
+};
 
-clear();
-
+clear();	
 

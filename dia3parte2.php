@@ -27,6 +27,7 @@
 		<button name="data_igual">=</button>
 		<button name="data_opera">/</button>
 	</div>
-    <script src="micodigo.js"></script>
+   <script src="micodigo.js"></script>
+
 </body>
 </html>
