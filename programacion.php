@@ -1,83 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" type="image/png" href="imagenes/favicon.jpg" />
-	<title>proyecto</title>
-	<link rel="stylesheet" type="text/css" href="mi_estilo.css">
+	<meta charset="utf-8">
+	<title>mega_menu</title>
+	<link rel="stylesheet" href="fuentesdeicono.css">
 
-<link rel="stylesheet" href="estilos_css/estilos.css"/>
 </head>
 <body>
-	<header>
-		<div class="contenedor_imagen">
-			<img src="imagenes/bit-en-fotografía-digital-coco-school-alicante.jpg" width="600" alt="logotipo">
-			
-		</div>
-		<div>
-			<link rel="icon" type="image/png" href="location:imagenes/icono.ico" />
-		</div>
+
+	<div class="wrapper">
+		
 		<nav>
-			<ul>
-				<li>
-					
-					<a href="#">inicio</a></li>
-					<a href="#">categoria</a></li>
-					<br>
-					<a href="#">categoria_2</a></li>
-				
+			<ul> 
+							
+					<li><a href="#">home</a></li>							
+					<li><a href="#">about</a></li>
+					<li class="dropdown">
+						<a href="#">services</a>							
+						<ul class="menu-area">
+							<ul>
+								<h4>Our company</h4>
+							<img src="imagenes/bit-en-fotografía-digital-coco-school-alicante.jpg">					</ul>
+							<ul>
+									<h4>graphics design</h4>
+									<li><a href="#">logo design</a></li>
+									<li><a href="#">broushure design</a></li>
+									<li><a href="#">template design</a></li>
+									<li><a href="#">card design</a></li>
+							</ul>
+							<ul>
+									<h4>web design</h4>
+									<li><a href="#">html webesign </a></li>
+									<li><a href="#">joomla webesign</a></li>
+									<li><a href="#">wordpress webesign</a></li>
+									<li><a href="#">megento webesign</a></li>
+									<li><a href="#">blogger webesign</a></li>
+							</ul>
+							<ul>
+								    <h4>photography</h4>
+									<li><a href="#">fashion photography</a></li>
+									<li><a href="#">potrait photography</a></li>
+									<li><a href="#">fine art photography</a></li>
+									<li><a href="#">sports photography</a></li>
+									<li><a href="#">aerial photography</a></li>
+							</ul>
+						</ul>	
+					</li>
+					<li><a href="#">portfolio</a></li>						
+					<li><a href="#">contact</a></li>									
 			</ul>
-
 		</nav>
-
-	</header>
-		<section class="wrapper">
-			<section class="main">
-					<article>
-
-					<h2>titulo de nuestra pagina</h2>
-					<p>
-						•	La administración es una disciplina que estudia el comportamiento de personas e instituciones humanas expuesta a cambios continuos.3 (Peter Drucker)
-						•	La administración utiliza un conocimiento fundamental organizado -la ciencia- y lo aplica de acuerdo a la realidad para obtener el resultado deseado y su arte es, el "saber cómo" alcanzar un resultado concreto. (Chester I. Barnard)
-						•	La Administración consiste en lograr un objetivo predeterminado, mediante el esfuerzo ajeno.4 (George R. Terry).	
-						•	La Administración es una ciencia social que persigue la satisfacción de objetivos institucionales por medio de una estructura y a través del esfuerzo humano coordinado. (José A. Fernández Arenas).5
-						•	La Administración es el proceso cuyo objeto es la coordinación eficaz y eficiente de los recursos de un grupo social para lograr sus objetivos con la máxima productividad. (Lourdes Münch Galindo y José García Martínez).6
-						</p>
-					</article>
-
-					<article>
-
-					<h2>titulo de nuestra pagina</h2>
-					<p>
-						•	La administración es una disciplina que estudia el comportamiento de personas e instituciones humanas expuesta a cambios continuos.3 (Peter Drucker)
-						•	La administración utiliza un conocimiento fundamental organizado -la ciencia- y lo aplica de acuerdo a la realidad para obtener el resultado deseado y su arte es, el "saber cómo" alcanzar un resultado concreto. (Chester I. Barnard)
-						•	La Administración consiste en lograr un objetivo predeterminado, mediante el esfuerzo ajeno.4 (George R. Terry).	
-						•	La Administración es una ciencia social que persigue la satisfacción de objetivos institucionales por medio de una estructura y a través del esfuerzo humano coordinado. (José A. Fernández Arenas).5
-						•	La Administración es el proceso cuyo objeto es la coordinación eficaz y eficiente de los recursos de un grupo social para lograr sus objetivos con la máxima productividad. (Lourdes Münch Galindo y José García Martínez).6
-						</p>
-
-					</article>
-
-							<article>
-					<h3>nuestra pagina</h3>
-					<p>
-						•	La administración es una disciplina que estudia el comportamiento de personas e instituciones humanas expuesta a cambios continuos.3 (Peter Drucker)
-						•	La administración utiliza un conocimiento fundamental organizado -la ciencia- y lo aplica de acuerdo a la realidad para obtener el resultado deseado y su arte es, el "saber cómo" alcanzar un resultado concreto. (Chester I. Barnard)
-						•	La Administración consiste en lograr un objetivo predeterminado, mediante el esfuerzo ajeno.4 (George R. Terry).	
-						•	La Administración es una ciencia social que persigue la satisfacción de objetivos institucionales por medio de una estructura y a través del esfuerzo humano coordinado. (José A. Fernández Arenas).5
-						•	La Administración es el proceso cuyo objeto es la coordinación eficaz y eficiente de los recursos de un grupo social para lograr sus objetivos con la máxima productividad. (Lourdes Münch Galindo y José García Martínez).6
-						</p>
-
-					</article>
-
-			</section>
-			<aside></aside>
-		</section>
-				<article>
-					<footer>
-					<p>autor Adofo bastidas 2021 </p>
-				</footer>
+	</div>
 
 
 </body>
 </html>
-
